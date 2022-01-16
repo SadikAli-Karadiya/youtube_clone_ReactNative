@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "audio-player",
-    "slug": "audio-player",
+    "name": "youtube-clone",
+    "slug": "youtube-clone",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.SadikAli.youtubeClone",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.SadikAli.youtubeClone",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
